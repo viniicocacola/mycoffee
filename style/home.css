@@ -1,24 +1,50 @@
 .homemain {
-    display: inline;
-    align-items: center; justify-content: center;
+    display: block; text-align: center;
+    margin-top: 25px
 }
 
+.imagemhome {
+    width: 25px; margin-top: 50px;
+}
 
+#titulohome {
+    font-family: var(--fontetitulo);
+    color: var(--fontecor);
+    text-transform: uppercase;
+    font-weight: 500; 
+    font-size: 25px;
+    text-shadow: 2px 1px 0 var(--marrom2);
+    margin: 0.5em 0 1em 0;
+}
 
+#titulohome::first-letter {
+    font-size: 37px;
+}
 
+.destaquehome {
+    color: var(--marrom2);
+    font-weight: 600;
+}
 
+#textohome {
+   font-family: var(--fontegeral); 
+   color: var(--fontecor);
+   font-size: 12,5px; font-weight: 500;
+   text-align: center; padding: 0.5em 0;
+}
 
 .homefundo {
     display: flex;
+    justify-content: center;
     background: var(--marromfundo1);
-    width: 100%; height: 400px;
+    width: 100%; height: 300px;
     position: absolute;
-    border-radius: 0 0 0 80px;
+    border-radius: 0 0 0 60px;
 }
 
 .secaofundo {
     position: absolute; z-index: -1;
     display: flex; align-items: left;
     background: var(--marromfundo2);
-    width: 50%; height: 200px; margin-top: 200px;
+    width: 50%; height: 200px; margin-top: 100px;
 }

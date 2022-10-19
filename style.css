@@ -2,22 +2,25 @@
 @import url(style/header.css);
 @import url(style/home.css);
 @import url(style/produtos.css);
+@import url(style/locais.css);
+@import url(style/rodape.css);
 
 :root {
     --fontetitulo: Noto Serif;
     --fontegeral: Montserrat;
     --fontecor: #ffffff;
+    --sombratexto:#73351F;
 
     --marromfundo1: #F2B999;
     --marromfundo2: #D99066;
-    --marromsombra: #1C0D0A;
-    --marromsombra2: rgba(64,31,24,0.28);
     --marrombotao: #a66249;
     --marrombotaoativo: #D99066;
     --marrommenu: #D99066;
     --marrom2: #73351F;
     --marrom3: #401F18;
 
+    --marromsombra: #1C0D0A;
+    --marromsombra2: rgba(64,31,24,0.28);
 }
 
 body {

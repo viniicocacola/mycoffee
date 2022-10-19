@@ -41,10 +41,10 @@
 		<div class="cabecalho-menu">
 			<div class="menu">
 				<nav class="m-nav">
-					<a href="#" class="menulink menulink-home menulink-ativo"><i class="fa-solid fa-house iconmenu"></i>Home</a>
-					<a href="#" class="menulink menulink-produtos"><i class="fa-solid fa-basket-shopping iconmenu"></i>Produtos</a>
-					<a href="#" class="menulink menulink-locais"><i class="fa-solid fa-store iconmenu"></i>Locais</a>
-					<a href="#" class="menulink menulink-contato"><i class="fa-solid fa-phone iconmenu"></i>Contato</a>
+					<a href="#secao-home" class="menulink menulink-home menulink-ativo"><i class="fa-solid fa-house iconmenu"></i>Home</a>
+					<a href="#secao-produtos" class="menulink menulink-produtos"><i class="fa-solid fa-basket-shopping iconmenu"></i>Produtos</a>
+					<a href="#secao-locais" class="menulink menulink-locais"><i class="fa-solid fa-store iconmenu"></i>Locais</a>
+					<a href="#rodape-contatos" class="menulink menulink-contato"><i class="fa-solid fa-phone iconmenu"></i>Contato</a>
 				</nav>
 			</div>
 		</div>
@@ -53,15 +53,15 @@
 
 		<section class="s-home" id="secao-home">
 			<div class="home">
-				<div class="homemain">
-					<i class="fa-solid fa-mug-hot iconhome"></i>
-					<h2>quem somos nós?</h2>
-					<p>O MyCoffee é um projeto autonomo e diferente, um ponto de encontro para os amantes de café.</p>
-				</div>
-				<div class="homebackground">
-					<div class="homefundo"></div>
+					<div class="homefundo">
+						<div class="homemain"><!--<i class="fa-solid fa-mug-hot iconhome"></i>-->
+							<img class="imagemhome" src="img/XicaraIconeHome.svg">
+							<h2 id="titulohome">quem somos nós?</h2>
+							<p id="textohome">O <span class="destaquehome">MyCoffee</span> é um projeto autonomo e diferente,</p>
+							<p id="textohome"> ponto de encontro para os amantes de café.</p>
+						</div>
+					</div>
 					<div class="secaofundo"></div>
-				</div>
 			</div>
 		</section>
 
@@ -77,17 +77,18 @@
 			</div>
 		</section>
 
-		<section class="s-contato" id="secao-contatos">
-		</section>
+		<section class="s-locais" id="secao-locais">
+			<div class="locais">
 
+			</div>
+		</section>
 	</main>
-	<footer>
-		<div id="rodape">
+	<footer class="rodape" id="rodape-contatos">
+		<div class="rodapefinal">
 		</div>
 	</footer>
 
 	<script src="index.js"></script>
-	
 	
 </body>
 </html>
